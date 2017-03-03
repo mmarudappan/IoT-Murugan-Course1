@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IoT-Murugan-Course1
+  host: IoT-Murugan-Course1
+  disk_quota: 1024M
+  services:
+  - IoT-Murugan-Course1-cloudantNoSQLDB
+  - IoT-Murugan-Course1-iotf-service
